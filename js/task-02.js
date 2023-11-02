@@ -17,7 +17,6 @@ function createMarkup(arr) {
 		return listItems;
 	});
 	listIng.append(...arrLi);
-	return;
 }
 
 createMarkup(ingredients);
